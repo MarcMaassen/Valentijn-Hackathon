@@ -1,5 +1,5 @@
-Marc: Scripts voor sidebar menus + Dice
+Marc: Scripts voor sidebar menus + Dice + Begin styling
 
-Sultan: Database
+Sultan: Database + Login
 
-Mahmoud: Styling 
+Mahmoud: Styling main pagina en login pagina
