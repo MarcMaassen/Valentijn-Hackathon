@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Good Matcha';
+  src: url(Fonts/Good\ Matcha.otf);
+}
+
+@font-face {
+  font-family: 'LOVELY';
+  src: url(Fonts/LOVELY.otf);
+}
+
+body {
+  background-color: lightblue !important;
+  background: linear-gradient(to right, lightblue, rgb(255, 203, 203));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#test {
+  align-content: center;
+  justify-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  max-width: 100%;
+  min-height: 480px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(100px);
+  border-radius: 30px;
+  box-shadow: 0 0px 55px rgba(0, 0, 0, 0.35);
+  position: relative;
+  margin-top: 150px;
+}
+
+#login {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'LOVELY';
+  padding-top: 20px;
+}
+
+#UserName {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Good Matcha';
+  font-size: 20px;
+}
+
+#text_input {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  height: 35px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid rgba(75, 75, 75, 0.35)
+}
+
+#Password {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Good Matcha';
+  font-size: 20px;
+}
+
+#password_input {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  height: 35px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid rgba(75, 75, 75, 0.35)
+}
+
+#btn {
+  font-size: large;
+  margin-left: 52px;
+  padding: 15px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.145);
+  backdrop-filter: blur(100px);
+}
+
+#btn:hover {
+  background: linear-gradient(to right, lightblue, rgb(255, 203, 203));
+}
